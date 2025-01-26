@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+# add path to src/main.py
+
+[packages]
+googlemaps = "*"
+streamlit = "*"
+python-dotenv = "*"
+plotly = "==5.24.1"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
